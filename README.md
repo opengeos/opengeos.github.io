@@ -18,7 +18,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 [streamlit-geospatial](https://github.com/opengeos/streamlit-geospatial)
 
-## Data Repositories
+## Data Catalogs
 
 [geospatial-data-catalogs](https://github.com/opengeos/geospatial-data-catalogs) | [aws-open-data](https://github.com/opengeos/aws-open-data) | [aws-open-data-geo](https://github.com/opengeos/aws-open-data-geo) | [aws-open-data-stac](https://github.com/opengeos/aws-open-data-stac) | [Earth-Engine-Catalog](https://github.com/opengeos/Earth-Engine-Catalog) | [NASA-CMR-STAC](https://github.com/opengeos/NASA-CMR-STAC) | [stac-index-catalogs](https://github.com/opengeos/stac-index-catalogs) | [maxar-open-data](https://github.com/opengeos/maxar-open-data) | [data](https://github.com/opengeos/data)
 

@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
-.inner {
-  max-width: 75%;
-}
+// .inner {
+//   max-width: 75%;
+// }
+
+.container {
+    max-width: 75%; /* Change this value to your desired width */
+    margin: 0 auto;
+  }

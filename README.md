@@ -6,7 +6,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 ## Python Packages
 
-[geospatial](https://github.com/opengeos/geospatial) | [geospatial-ml](https://github.com/opengeos/geospatial-ml) | [leafmap](https://github.com/opengeos/leafmap) | [lidar](https://github.com/opengeos/lidar) | [mapwidget](https://github.com/opengeos/mapwidget) | [pygis](https://github.com/opengeos/pygis) | [whitebox-python](https://github.com/opengeos/whitebox-python) | [whiteboxgui](https://github.com/opengeos/whiteboxgui)
+[geospatial](https://github.com/opengeos/geospatial) | [geospatial-ml](https://github.com/opengeos/geospatial-ml) | [leafmap](https://github.com/opengeos/leafmap) | [lidar](https://github.com/opengeos/lidar) | [mapwidget](https://github.com/opengeos/mapwidget) | [pygis](https://github.com/opengeos/pygis) | [segment-anything-py](https://github.com/opengeos/segment-anything) | [segment-geospatial](https://github.com/opengeos/segment-geospatial) | [whitebox-python](https://github.com/opengeos/whitebox-python) | [whiteboxgui](https://github.com/opengeos/whiteboxgui)
 
 ## R Packages
 

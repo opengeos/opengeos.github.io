@@ -6,6 +6,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 ## Python Packages
 
+- [geemap](https://github.com/gee-community/geemap)
 - [geospatial](https://github.com/opengeos/geospatial)
 - [geospatial-ml](https://github.com/opengeos/geospatial-ml)
 - [leafmap](https://github.com/opengeos/leafmap)

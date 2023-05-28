@@ -41,6 +41,8 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 ## Web Apps
 
 - [streamlit-geospatial](https://github.com/opengeos/streamlit-geospatial)
+- [solara-geospatial](https://github.com/opengeos/solara-geospatial)
+- [voila-geospatial](https://github.com/opengeos/voila-geospatial)
 
 ## Useful Resources
 

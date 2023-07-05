@@ -42,6 +42,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 - [streamlit-geospatial](https://github.com/opengeos/streamlit-geospatial)
 - [solara-geospatial](https://github.com/opengeos/solara-geospatial)
+- [solara-template](https://github.com/opengeos/solara-template)
 - [voila-geospatial](https://github.com/opengeos/voila-geospatial)
 
 ## Useful Resources

@@ -6,12 +6,15 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 ## Python Packages
 
+- [earthformer](https://github.com/gee-community/earthformer)
 - [geemap](https://github.com/gee-community/geemap)
+- [geoai](https://github.com/opengeos/geoai)
 - [geospatial](https://github.com/opengeos/geospatial)
 - [geospatial-ml](https://github.com/opengeos/geospatial-ml)
 - [leafmap](https://github.com/opengeos/leafmap)
 - [lidar](https://github.com/opengeos/lidar)
 - [mapwidget](https://github.com/opengeos/mapwidget)
+- [open-buildings](https://github.com/opengeos/open-buildings)
 - [pygis](https://github.com/opengeos/pygis)
 - [segment-anything-py](https://github.com/opengeos/segment-anything)
 - [segment-geospatial](https://github.com/opengeos/segment-geospatial)
@@ -41,8 +44,10 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 ## Web Apps
 
 - [streamlit-geospatial](https://github.com/opengeos/streamlit-geospatial)
+- [solara-geemap](https://github.com/opengeos/solara-geemap)
 - [solara-geospatial](https://github.com/opengeos/solara-geospatial)
 - [solara-template](https://github.com/opengeos/solara-template)
+- [solara-maxar](https://github.com/opengeos/solara-maxar)
 - [voila-geospatial](https://github.com/opengeos/voila-geospatial)
 
 ## Useful Resources

@@ -6,7 +6,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 ## Python Packages
 
-- [earthformer](https://github.com/gee-community/earthformer)
+- [earthformer](https://github.com/opengeos/earthformer)
 - [geemap](https://github.com/gee-community/geemap)
 - [geoai](https://github.com/opengeos/geoai)
 - [geospatial](https://github.com/opengeos/geospatial)
@@ -54,3 +54,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 - [Awesome-GEE](https://github.com/opengeos/Awesome-GEE)
 - [python-geospatial](https://github.com/opengeos/python-geospatial)
+
+## Acknowledgements
+
+Some of the projects hosted by the Open Geospatial Solutions organization are supported by Amazon Web Services ([AWS](https://aws.amazon.com)).

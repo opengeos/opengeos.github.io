@@ -6,6 +6,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 ## Python Packages
 
+- [cookiecutter-pypackage](https://github.com/opengeos/cookiecutter-pypackage)
 - [earthformer](https://github.com/opengeos/earthformer)
 - [geemap](https://github.com/gee-community/geemap)
 - [geoai](https://github.com/opengeos/geoai)
@@ -29,9 +30,12 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 - [aws-open-data-stac](https://github.com/opengeos/aws-open-data-stac)
 - [Earth-Engine-Catalog](https://github.com/opengeos/Earth-Engine-Catalog)
 - [NASA-CMR-STAC](https://github.com/opengeos/NASA-CMR-STAC)
+- [NASA-Earth-Data](https://github.com/opengeos/NASA-Earth-Data)
 - [stac-index-catalogs](https://github.com/opengeos/stac-index-catalogs)
 - [maxar-open-data](https://github.com/opengeos/maxar-open-data)
+- [datasets](https://github.com/opengeos/datasets)
 - [data](https://github.com/opengeos/data)
+- [ee-tile-layers](https://github.com/opengeos/ee-tile-layers)
 
 ## R Packages
 
@@ -49,6 +53,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 - [solara-template](https://github.com/opengeos/solara-template)
 - [solara-maxar](https://github.com/opengeos/solara-maxar)
 - [voila-geospatial](https://github.com/opengeos/voila-geospatial)
+- [geospatial-dataviz](https://github.com/opengeos/geospatial-dataviz)
 
 ## Useful Resources
 

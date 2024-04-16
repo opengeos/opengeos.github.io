@@ -12,6 +12,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 - [geoai](https://github.com/opengeos/geoai)
 - [geospatial](https://github.com/opengeos/geospatial)
 - [geospatial-ml](https://github.com/opengeos/geospatial-ml)
+- [HyperCoast](https://github.com/opengeos/HyperCoast)
 - [leafmap](https://github.com/opengeos/leafmap)
 - [lidar](https://github.com/opengeos/lidar)
 - [mapwidget](https://github.com/opengeos/mapwidget)

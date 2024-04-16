@@ -49,6 +49,7 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 ## Web Apps
 
 - [streamlit-geospatial](https://github.com/opengeos/streamlit-geospatial)
+- [streamlit-map-template](https://github.com/opengeos/streamlit-map-template)
 - [solara-geemap](https://github.com/opengeos/solara-geemap)
 - [solara-geospatial](https://github.com/opengeos/solara-geospatial)
 - [solara-template](https://github.com/opengeos/solara-template)

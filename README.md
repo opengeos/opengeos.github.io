@@ -6,8 +6,6 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 
 ## Python Packages
 
-- [cookiecutter-pypackage](https://github.com/opengeos/cookiecutter-pypackage)
-- [earthformer](https://github.com/opengeos/earthformer)
 - [geemap](https://github.com/gee-community/geemap)
 - [geoai](https://github.com/opengeos/geoai)
 - [geospatial](https://github.com/opengeos/geospatial)
@@ -18,7 +16,6 @@ The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub o
 - [mapwidget](https://github.com/opengeos/mapwidget)
 - [open-buildings](https://github.com/opengeos/open-buildings)
 - [pygis](https://github.com/opengeos/pygis)
-- [segment-anything-py](https://github.com/opengeos/segment-anything)
 - [segment-geospatial](https://github.com/opengeos/segment-geospatial)
 - [whitebox-python](https://github.com/opengeos/whitebox-python)
 - [whiteboxgui](https://github.com/opengeos/whiteboxgui)

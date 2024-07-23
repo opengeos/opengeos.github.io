@@ -1,3 +1,5 @@
+![opengeos_banner](assets/opengeos_banner.png)
+
 # Open Geospatial Solutions
 
 ## Introduction

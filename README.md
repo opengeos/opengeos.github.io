@@ -1,4 +1,4 @@
-![opengeos_banner](assets/opengeos_banner.png)
+![opengeos_banner](https://assets.gishub.org/images/opengeos_banner_qr.png)
 
 # Open Geospatial Solutions
 

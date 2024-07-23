@@ -6,6 +6,10 @@
 
 The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub organization hosts a collection of open-source geospatial software projects. The projects are developed by a community of geospatial software developers and researchers. The projects are maintained by the community and are free to use and modify. The projects are open-source and are licensed under the MIT license. If you are interested in hosting an open-source project with us, please submit a request on the [Discussion Board](https://github.com/opengeos/opengeos.github.io/discussions). We always welcome new contributors and collaborators.
 
+Join our Discord server 👇
+
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/UgZecTUq5P)](https://discord.gg/UgZecTUq5P)
+
 ## Python Packages
 
 - [geemap](https://github.com/gee-community/geemap)

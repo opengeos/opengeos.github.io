@@ -59,6 +59,7 @@ Join our Discord server 👇
 - [solara-maxar](https://github.com/opengeos/solara-maxar)
 - [voila-geospatial](https://github.com/opengeos/voila-geospatial)
 - [geospatial-dataviz](https://github.com/opengeos/geospatial-dataviz)
+- [surface-water-app](https://github.com/opengeos/surface-water-app)****
 
 ## Useful Resources
 

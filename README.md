@@ -71,7 +71,7 @@ Join our Discord server 👇
 - [maplibre-gl-swipe](https://github.com/opengeos/maplibre-gl-swipe)
 - [maplibre-gl-time-slider](https://github.com/opengeos/maplibre-gl-time-slider)
 - [maplibre-gl-usgs-lidar](https://github.com/opengeos/maplibre-gl-usgs-lidar)
-  
+
 ## R Packages
 
 - [whiteboxR](https://github.com/opengeos/whiteboxR)

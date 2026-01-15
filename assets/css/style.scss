@@ -3,11 +3,411 @@
 
 @import "{{ site.theme }}";
 
-// .inner {
-//   max-width: 75%;
-// }
+// ===================================
+// Fancy Modern Geospatial Theme
+// ===================================
 
-.container {
-    max-width: 75%; /* Change this value to your desired width */
-    margin: 0 auto;
+// CSS Variables for easy customization
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --geo-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --ocean-gradient: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  --sunset-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  --card-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --card-hover-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  --border-radius: 16px;
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Custom page header with animated gradient
+.page-header {
+  background: linear-gradient(-45deg, #667eea, #764ba2, #11998e, #38ef7d, #2193b0);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  padding: 3rem 1rem;
+  text-align: center !important;
+
+  .project-name {
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center !important;
   }
+
+  .project-tagline {
+    opacity: 0.95;
+    font-weight: 300;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+}
+
+// Force header centering
+h2.project-tagline {
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+// Main content container
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  // Fade in animation for content
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Banner image styling
+.main-content > p:first-of-type img {
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition-smooth);
+  max-width: 100%;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: var(--card-hover-shadow);
+  }
+}
+
+// Typography enhancements
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: var(--geo-gradient);
+    border-radius: 2px;
+  }
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  // Animated underline
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--geo-gradient);
+    border-radius: 2px;
+    transition: width 0.5s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  // Category icons
+  &::before {
+    font-size: 1.5rem;
+    display: inline-block;
+    animation: bounce 2s ease-in-out infinite;
+  }
+}
+
+// Category-specific icons
+h2:nth-of-type(1)::before { content: '📖'; } // Introduction
+h2:nth-of-type(2)::before { content: '🐍'; } // Python Packages
+h2:nth-of-type(3)::before { content: '📊'; } // Data Catalogs
+h2:nth-of-type(4)::before { content: '🌍'; } // QGIS Plugins
+h2:nth-of-type(5)::before { content: '🗺️'; } // MapLibre
+h2:nth-of-type(6)::before { content: '📈'; } // R Packages
+h2:nth-of-type(7)::before { content: '🔧'; } // ArcGIS
+h2:nth-of-type(8)::before { content: '🌐'; } // Web Apps
+h2:nth-of-type(9)::before { content: '📚'; } // Resources
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+// Introduction paragraph styling
+h2:first-of-type + p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a5568;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  border-left: 4px solid #667eea;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 2rem;
+}
+
+// Discord badge styling
+p > a > img[src*="discord"],
+p > a > img[src*="dcbadge"] {
+  transition: var(--transition-smooth);
+  border-radius: 8px;
+
+  &:hover {
+    transform: translateY(-3px) scale(1.05);
+    filter: brightness(1.1);
+  }
+}
+
+// List styling - Card-like appearance
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+li {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: var(--transition-smooth);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--geo-gradient);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+    &::before {
+      transform: scaleX(1);
+    }
+  }
+
+  a {
+    display: block;
+    padding: 1rem 1.25rem;
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+
+    &::after {
+      content: '→';
+      position: absolute;
+      right: 1rem;
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: var(--transition-smooth);
+      color: #667eea;
+    }
+
+    &:hover {
+      color: #667eea;
+
+      &::after {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+// Alternate card gradient colors per category
+h2:nth-of-type(2) + ul li::before { background: linear-gradient(90deg, #3776ab, #ffd43b); } // Python blue-yellow
+h2:nth-of-type(3) + ul li::before { background: var(--ocean-gradient); } // Data catalogs
+h2:nth-of-type(4) + ul li::before { background: linear-gradient(90deg, #589632, #93b023); } // QGIS green
+h2:nth-of-type(5) + ul li::before { background: var(--sunset-gradient); } // MapLibre
+h2:nth-of-type(6) + ul li::before { background: linear-gradient(90deg, #276dc3, #75aadb); } // R blue
+h2:nth-of-type(7) + ul li::before { background: linear-gradient(90deg, #2c7fb8, #41b6c4); } // ArcGIS
+h2:nth-of-type(8) + ul li::before { background: var(--secondary-gradient); } // Web Apps
+h2:nth-of-type(9) + ul li::before { background: var(--primary-gradient); } // Resources
+
+// Special styling for links
+a {
+  color: #667eea;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+
+  &:hover {
+    color: #764ba2;
+  }
+}
+
+// Code styling
+code {
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9em;
+  color: #667eea;
+}
+
+// Footer enhancements
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #edf2f7;
+  text-align: center;
+
+  .site-footer-credits {
+    color: #718096;
+    font-size: 0.9rem;
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    grid-template-columns: 1fr;
+  }
+
+  .page-header {
+    padding: 2rem 1rem;
+  }
+}
+
+// Add subtle particle/dot background pattern
+.main-content {
+  background-image:
+    radial-gradient(circle at 25% 25%, rgba(102, 126, 234, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(17, 153, 142, 0.03) 0%, transparent 50%);
+}
+
+// Scroll-triggered animations (via CSS only)
+@media (prefers-reduced-motion: no-preference) {
+  li {
+    animation: slideIn 0.5s ease backwards;
+  }
+
+  @for $i from 1 through 20 {
+    li:nth-child(#{$i}) {
+      animation-delay: #{$i * 0.05}s;
+    }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Add a floating scroll-to-top indicator hint
+.main-content::after {
+  content: '';
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  background: var(--primary-gradient);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  box-shadow: var(--card-shadow);
+}
+
+// Highlight effect on hover for the entire page
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+// Selection styling
+::selection {
+  background: rgba(102, 126, 234, 0.3);
+  color: #1a202c;
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #667eea, #764ba2);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #5a67d8, #6b46c1);
+}

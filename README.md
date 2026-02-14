@@ -45,31 +45,43 @@ Join our Discord server 👇
 
 ## QGIS Plugins
 
+- [Basemaps](https://github.com/opengeos/qgis-basemaps)
+- [CDSE](https://github.com/opengeos/qgis-cdse-plugin)
 - [Earth Engine Data Catalogs](https://github.com/opengeos/qgis-gee-data-catalogs-plugin)
 - [Geemap](https://github.com/opengeos/qgis-geemap-plugin)
 - [GeoAI](https://github.com/opengeos/geoai)
 - [HyperCoast](https://github.com/opengeos/HyperCoast)
 - [Leafmap](https://github.com/opengeos/qgis-leafmap-plugin)
+- [Map](https://github.com/opengeos/qgis-map)
 - [Maxar Open Data](https://github.com/opengeos/qgis-maxar-plugin)
 - [NASA Earthdata](https://github.com/opengeos/qgis-nasa-earthdata-plugin)
 - [NASA OPERA](https://github.com/opengeos/qgis-nasa-opera-plugin)
 - [Notebook](https://github.com/opengeos/qgis-notebook-plugin)
 - [Plugin Template](https://github.com/opengeos/qgis-plugin-template)
 - [SamGeo](https://github.com/opengeos/qgis-samgeo-plugin)
+- [STAC](https://github.com/opengeos/qgis-stac-plugin)
+- [Terrascope](https://github.com/opengeos/qgis-terrascope-plugin)
 - [Timelapse](https://github.com/opengeos/qgis-timelapse-plugin)
 - [Whitebox AI Agent](https://github.com/opengeos/qgis-whitebox-agent)
 
 ## MapLibre GL JS Plugins
 
 - [maplibre-gl-components](https://github.com/opengeos/maplibre-gl-components)
+- [maplibre-gl-earth-engine](https://github.com/opengeos/maplibre-gl-earth-engine)
 - [maplibre-gl-extend](https://github.com/opengeos/maplibre-gl-extend)
 - [maplibre-gl-geo-editor](https://github.com/opengeos/maplibre-gl-geo-editor)
+- [maplibre-gl-html-widget](https://github.com/opengeos/maplibre-gl-html-widget)
 - [maplibre-gl-layer-control](https://github.com/opengeos/maplibre-gl-layer-control)
+- [maplibre-gl-layer-manager](https://github.com/opengeos/maplibre-gl-layer-manager)
 - [maplibre-gl-lidar](https://github.com/opengeos/maplibre-gl-lidar)
+- [maplibre-gl-planetary-computer](https://github.com/opengeos/maplibre-gl-planetary-computer)
 - [maplibre-gl-plugin-template](https://github.com/opengeos/maplibre-gl-plugin-template)
+- [maplibre-gl-splat](https://github.com/opengeos/maplibre-gl-splat)
+- [maplibre-gl-storymaps](https://github.com/opengeos/maplibre-gl-storymaps)
 - [maplibre-gl-streetview](https://github.com/opengeos/maplibre-gl-streetview)
 - [maplibre-gl-swipe](https://github.com/opengeos/maplibre-gl-swipe)
 - [maplibre-gl-time-slider](https://github.com/opengeos/maplibre-gl-time-slider)
+- [maplibre-gl-typescript-examples](https://github.com/opengeos/maplibre-gl-typescript-examples)
 - [maplibre-gl-usgs-lidar](https://github.com/opengeos/maplibre-gl-usgs-lidar)
 
 ## R Packages

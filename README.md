@@ -74,6 +74,7 @@ Join our Discord server 👇
 - [maplibre-gl-layer-control](https://github.com/opengeos/maplibre-gl-layer-control)
 - [maplibre-gl-layer-manager](https://github.com/opengeos/maplibre-gl-layer-manager)
 - [maplibre-gl-lidar](https://github.com/opengeos/maplibre-gl-lidar)
+- [maplibre-gl-noaa-lidar](https://github.com/opengeos/maplibre-gl-noaa-lidar)
 - [maplibre-gl-planetary-computer](https://github.com/opengeos/maplibre-gl-planetary-computer)
 - [maplibre-gl-plugin-template](https://github.com/opengeos/maplibre-gl-plugin-template)
 - [maplibre-gl-splat](https://github.com/opengeos/maplibre-gl-splat)

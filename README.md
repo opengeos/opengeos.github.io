@@ -14,6 +14,7 @@ Join our Discord server 👇
 
 - [anymap](https://github.com/opengeos/anymap)
 - [geemap](https://github.com/gee-community/geemap)
+- [GeoAgent](https://github.com/opengeos/GeoAgent)
 - [geoai](https://github.com/opengeos/geoai)
 - [geospatial](https://github.com/opengeos/geospatial)
 - [geospatial-ml](https://github.com/opengeos/geospatial-ml)
@@ -26,7 +27,6 @@ Join our Discord server 👇
 - [segment-geospatial](https://github.com/opengeos/segment-geospatial)
 - [whitebox-python](https://github.com/opengeos/whitebox-python)
 - [whiteboxgui](https://github.com/opengeos/whiteboxgui)
-
 
 ## Data Catalogs
 
@@ -57,9 +57,11 @@ Join our Discord server 👇
 - [NASA Earthdata](https://github.com/opengeos/qgis-nasa-earthdata-plugin)
 - [NASA OPERA](https://github.com/opengeos/qgis-nasa-opera-plugin)
 - [Notebook](https://github.com/opengeos/qgis-notebook-plugin)
+- [OpenGeoAgent](https://geoagent.gishub.org/qgis-plugin)
 - [Plugin Template](https://github.com/opengeos/qgis-plugin-template)
 - [SamGeo](https://github.com/opengeos/qgis-samgeo-plugin)
 - [STAC](https://github.com/opengeos/qgis-stac-plugin)
+- [Terminal](https://github.com/opengeos/qgis-terminal-plugin)
 - [Terrascope](https://github.com/opengeos/qgis-terrascope-plugin)
 - [Timelapse](https://github.com/opengeos/qgis-timelapse-plugin)
 - [Whitebox AI Agent](https://github.com/opengeos/qgis-whitebox-agent)
@@ -73,8 +75,8 @@ Join our Discord server 👇
 - [maplibre-gl-html-widget](https://github.com/opengeos/maplibre-gl-html-widget)
 - [maplibre-gl-layer-control](https://github.com/opengeos/maplibre-gl-layer-control)
 - [maplibre-gl-layer-manager](https://github.com/opengeos/maplibre-gl-layer-manager)
-- [maplibre-gl-lidar](https://github.com/opengeos/maplibre-gl-lidar)
 - [maplibre-gl-noaa-lidar](https://github.com/opengeos/maplibre-gl-noaa-lidar)
+- [maplibre-gl-lidar](https://github.com/opengeos/maplibre-gl-lidar)
 - [maplibre-gl-planetary-computer](https://github.com/opengeos/maplibre-gl-planetary-computer)
 - [maplibre-gl-plugin-template](https://github.com/opengeos/maplibre-gl-plugin-template)
 - [maplibre-gl-splat](https://github.com/opengeos/maplibre-gl-splat)

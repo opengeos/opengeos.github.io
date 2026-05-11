@@ -311,6 +311,52 @@ code {
     color: #718096;
     font-size: 0.9rem;
   }
+
+  .site-footer-legal {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
+.legal-page {
+  .main-content {
+    max-width: 900px;
+  }
+
+  h1,
+  h2 {
+    display: block;
+  }
+
+  h2::before {
+    content: none;
+  }
+
+  ul {
+    display: block;
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  li {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0.35rem 0;
+    overflow: visible;
+
+    &::before {
+      content: none;
+    }
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
 }
 
 // Responsive adjustments

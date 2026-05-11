@@ -68,8 +68,8 @@ Users may stop using the application at any time. Users may revoke Open Geospati
 
 For privacy questions or requests, contact:
 
-Qiusheng Wu  
-Open Geospatial Solutions  
+Qiusheng Wu
+Open Geospatial Solutions
 <https://github.com/opengeos/opengeos.github.io/discussions>
 
 ## Changes

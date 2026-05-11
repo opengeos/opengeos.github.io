@@ -58,6 +58,6 @@ We may update these Terms of Service from time to time. Updates will be posted o
 
 For questions about these terms, contact:
 
-Qiusheng Wu  
-Open Geospatial Solutions  
+Qiusheng Wu
+Open Geospatial Solutions
 <https://github.com/opengeos/opengeos.github.io/discussions>

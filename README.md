@@ -1,10 +1,16 @@
-![opengeos_banner](https://assets.gishub.org/images/opengeos_banner_qr.png)
+![Open Geospatial Solutions banner](assets/opengeos_banner.png)
 
 # Open Geospatial Solutions
 
 ## Introduction
 
 The Open Geospatial Solutions ([opengeos](https://github.com/opengeos)) GitHub organization hosts a collection of open-source geospatial software projects. The projects are developed by a community of geospatial software developers and researchers. The projects are maintained by the community and are free to use and modify. The projects are open-source and are licensed under the MIT license. If you are interested in hosting an open-source project with us, please submit a request on the [Discussion Board](https://github.com/opengeos/opengeos.github.io/discussions). We always welcome new contributors and collaborators.
+
+## OAuth Application
+
+Open Geospatial Solutions is the public home page for the Open Geospatial Solutions OAuth application. The app is used by OpenGeoS geospatial tools, notebooks, plugins, and web applications to let users sign in with Google and, only after user consent, connect to the Google services needed for geospatial workflows such as mapping, data access, catalog exploration, and analysis.
+
+The app requests only the Google permissions required by the specific OpenGeoS tool a user chooses to run. User data is used to provide the requested geospatial workflow and is handled according to the [Privacy Policy](https://opengeos.org/privacy/) and [Terms of Service](https://opengeos.org/terms/).
 
 Join our Discord server 👇
 
@@ -72,6 +78,7 @@ Join our Discord server 👇
 - [maplibre-gl-earth-engine](https://github.com/opengeos/maplibre-gl-earth-engine)
 - [maplibre-gl-extend](https://github.com/opengeos/maplibre-gl-extend)
 - [maplibre-gl-geo-editor](https://github.com/opengeos/maplibre-gl-geo-editor)
+- [maplibre-gl-geoagent](https://github.com/opengeos/maplibre-gl-geoagent)
 - [maplibre-gl-html-widget](https://github.com/opengeos/maplibre-gl-html-widget)
 - [maplibre-gl-layer-control](https://github.com/opengeos/maplibre-gl-layer-control)
 - [maplibre-gl-layer-manager](https://github.com/opengeos/maplibre-gl-layer-manager)
